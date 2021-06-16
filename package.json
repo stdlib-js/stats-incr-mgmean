@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-mgmean",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compute a moving geometric mean incrementally.",
   "license": "Apache-2.0",
   "author": {
