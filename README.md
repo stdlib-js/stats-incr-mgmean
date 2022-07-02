@@ -70,7 +70,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.incrmgmean;
+})();
 })();
 </script>
 ```
@@ -143,6 +145,7 @@ v = accumulator();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgmean@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var accumulator;
 var v;
@@ -158,6 +161,7 @@ for ( i = 0; i < 100; i++ ) {
 }
 console.log( accumulator() );
 
+})();
 })();
 </script>
 </body>
@@ -257,11 +261,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats-incr-gmean/tree/umd
+[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats-incr-gmean/tree/umd/tree/umd
 
-[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats-incr-mhmean/tree/umd
+[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats-incr-mhmean/tree/umd/tree/umd
 
-[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/umd
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
