@@ -63,7 +63,7 @@ The [geometric mean][geometric-mean] is defined as the nth root of a product of 
 ## Usage
 
 ```javascript
-import incrmgmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgmean@esm/index.mjs';
+import incrmgmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgmean@v0.2.0-esm/index.mjs';
 ```
 
 #### incrmgmean( window )
@@ -133,7 +133,7 @@ v = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmgmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgmean@esm/index.mjs';
+import incrmgmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mgmean@v0.2.0-esm/index.mjs';
 
 var accumulator;
 var v;
